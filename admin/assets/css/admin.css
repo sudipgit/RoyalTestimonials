@@ -1,0 +1,48 @@
+/**
+*
+* Admin css for backend styling
+*
+*/
+
+
+
+.wrt-settings .display-setting,.wrt-settings .navigation-settings{margin-top: 50px;}
+.wrt-settings h3{font-size: 20px;border-bottom: 1px solid #ccc;padding-bottom: 10px;}
+.wrt-settings .shortcode{font-size:20px}
+.wrt-settings form table span.wrt-des{display:block;	margin: 5px 0px;font-size: 11px;}
+.wrt-settings form table td{padding:15px;	}
+.wrt-settings form table thead th{padding:6px 15px;	}
+.wrt-settings form table .wrt-form-fields{margin-bottom:15px;}
+.wrt-settings form table{width:100%;}
+.wrt-settings form table thead,.wrt-settings form table tbody tr{background:#f9f9f9;vertical-align: top;}
+.wrt-settings form table tbody tr:first-child{background:#fff;	}
+
+
+
+.wrt-settings .wrt-preview-field img{width: 350px;max-width:94%;}
+.wrt-settings form thead tr th:first-child,
+.wrt-settings form tbody tr td:first-child{width: 35%;		}
+.wrt-settings .wrt-preview-field{display: flex;align-items: center;margin-bottom: 15px;	border-bottom: 1px solid #ccc;padding-bottom: 15px;	}
+.wrt-settings .wrt-preview-field input{margin-left: 15px;	}
+.wrt-client-fields input:not([type="radio"]){width:100%;max-width:600px;}
+.wrt-client-fields{display: block;width: 100%;}
+.wrt-client-fields label{cursor: pointer;width: 100%;max-width: 120px;display: inline-block;text-align: right;margin-right: 10px;}
+
+.wrt-client-fields input[type="radio"]:checked,
+.wrt-client-fields input[type="radio"]:checked::before,
+.wrt-client-fields input[type="radio"]:hover,
+.wrt-client-fields input[type="radio"]{width: 20px;height: 20px;border: 0;box-shadow: unset;	border-radius: 0;margin: 0;line-height: 0;}
+.wrt-client-fields input[type="radio"]{mask: url('../images/star-regular.svg') center center no-repeat;background: #000;}
+.wrt-client-fields input[type="radio"]:checked,
+.wrt-client-fields input[type="radio"]:checked::before,
+.wrt-client-fields input[type="radio"]:hover{mask: url('../images/star-solid.svg') center center no-repeat;}
+.wrt-client-fields input[type="radio"]:checked,
+.wrt-client-fields input[type="radio"]:checked::before{background: orange;		}
+.wrt-client-fields input[type="radio"]:hover{background: orange;}
+
+.wrt-client-fields input[type="radio"]:checked::before{content: "";	}
+
+.wrt-client-fields input.hovered{mask: url('../images/star-solid.svg') center center no-repeat;background: orange;} 
+.wrt-client-fields input.checked{mask: url('../images/star-solid.svg') center center no-repeat;background: orange;} 
+.wrt_button{    background: #1c1c5d;color: #fff;font-weight: bold; padding: 10px 20px;border: none; cursor: pointer;}
+
