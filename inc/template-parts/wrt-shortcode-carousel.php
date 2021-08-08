@@ -12,8 +12,11 @@
 	include( 'partials/wrt-shortcode-carousel-'.$style.'.php' );	
 ?>	
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script src='<?php  _e(WRT_PLUGIN_ROOT_URL,'royal-testimonials');?>/assets/js/wrt-carousel.js'></script>
+	
 
 <!-- partial -->
  
