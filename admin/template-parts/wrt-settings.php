@@ -6,21 +6,19 @@
 *   Testimonials settings template
 *   All setting options added here
 */
-
-
+ 
   $wrt_setting_options = get_option('wrt_setting_options');
-
 ?>
 
 <div class="wrt-settings">
-	<h2> Testimonial Settings</h1>
+	<h2><?php _e('Testimonial Settings', 'royal-testimonials' ); ?></h1>
 	<form action="" method="post">
 		<table>
 			<thead>
 				<tr>
-					<th>Preview</th>
-					<th>Shortcode</th>
-					<th>Setting</th>
+					<th><?php _e('Preview', 'royal-testimonials' ); ?></th>
+					<th><?php _e('Shortcode', 'royal-testimonials' ); ?></th>
+					<th><?php _e('Setting', 'royal-testimonials' ); ?></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -44,8 +42,8 @@
 		</table>
 	</form>
 	
-	<p>You can our documentation here <a target="_blank" href="https://leturetech.com/royal-testimonials-documentation/">See Documentation</a></p>
-	<p>You can our demo here <a target="_blank" href="https://leturetech.com/royal-testimonials/">See Demo</a></p>
+	<p><?php _e('You can our documentation here', 'royal-testimonials' ); ?> <a target="_blank" href="https://leturetech.com/royal-testimonials-documentation/"> <?php _e('See Documentation', 'royal-testimonials' ); ?></a></p>
+	<p><?php _e('You can our demo here', 'royal-testimonials' ); ?> <a target="_blank" href="https://leturetech.com/royal-testimonials/"> <?php _e('See Demo', 'royal-testimonials' ); ?></a></p>
 </div>
 
 

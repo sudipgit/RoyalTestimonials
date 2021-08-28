@@ -1,16 +1,13 @@
-/**
- * wrt Carousel
+/**
+ * wrt Carousel
  */
-
-;(function($, window, document, undefined) {
-
-	/**
-	 * Creates a carousel.
-	 * @class The wrt Carousel.
-	 * @public
-	 * @param {HTMLElement|jQuery} element - The element to create the carousel for.
-	 * @param {Object} [options] - The options
-	 */
+;(function($, window, document, undefined) {/**
+* Creates a carousel.
+* @class The wrt Carousel.
+* @public
+* @param {HTMLElement|jQuery} element - The element to create the carousel for.
+* @param {Object} [options] - The options
+*/
 	function wrt(element, options) {
 
 		/**

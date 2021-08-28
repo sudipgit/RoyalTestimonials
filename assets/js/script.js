@@ -1,9 +1,8 @@
-/**
-*
-* Global front end script
-*
+/**
+*
+* Global front end script
+*
 */
-
 jQuery("#wrt-testimonials-style1, #wrt-testimonials-style2, #wrt-testimonials-style3, #wrt-testimonials-style4").wrtCarousel({
   autoplay: $("#wrt-testimonials-style1, #wrt-testimonials-style2, #wrt-testimonials-style3, #wrt-testimonials-style4").data("autoplay"), 
   margin: 0,
@@ -20,18 +19,14 @@ jQuery("#wrt-testimonials-style1, #wrt-testimonials-style2, #wrt-testimonials-st
     0: {		
       items: 1
     },
-
     600: {		
       items: $("#wrt-testimonials-style1, #wrt-testimonials-style2, #wrt-testimonials-style3, #wrt-testimonials-style4").data("items").mobile
     },
-
     1024: {
       items: $("#wrt-testimonials-style1, #wrt-testimonials-style2, #wrt-testimonials-style3, #wrt-testimonials-style4").data("items").tablet
     },
-
     1366: {
       items: $("#wrt-testimonials-style1, #wrt-testimonials-style2, #wrt-testimonials-style3, #wrt-testimonials-style4").data("items").desktop
     }
   }
 });
- 

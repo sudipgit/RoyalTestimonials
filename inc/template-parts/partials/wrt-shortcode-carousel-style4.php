@@ -1,9 +1,10 @@
-<?php /**
+<?php 
+/**
 *   Called in template wrt-shortcode-carousel.php
 *   Carousel style4
 *  
 */
-?>
+?>  
 <?php foreach($testimonials as $testimonial){?>
 	<div class="item wrt-carousel-style4">
 		<div class="wrt-body">	
@@ -14,9 +15,9 @@
 					if(has_post_thumbnail($testimonial->ID))
 				{
 				?>			
-				<img src="<?php _e(get_the_post_thumbnail_url($testimonial->ID,'thumbnail'), 'royal-testimonials') ;?>"/>
+				<img src="<?php echo get_the_post_thumbnail_url($testimonial->ID,'thumbnail');?>"/>
 				<?php } else{ ?>
-					<img src="<?php _e(WRT_PLUGIN_ROOT_URL.'/assets/images/images.jpg', 'royal-testimonials');?>" /> 
+					<img src="<?php echo WRT_PLUGIN_ROOT_URL.'/assets/images/images.jpg';?>" /> 
 				<?php } ?>
 				</div>		
 				<?php } ?>
@@ -38,7 +39,7 @@
 							?>
 						   <?php if ($wrt_setting_options['wrt_carousel_hide_website']=='no' && get_post_meta( $testimonial->ID, 'wrt_client_website',true)==true){ ?>
 							<p class="wrt_website">
-							<a href="<?php _e(get_post_meta( $testimonial->ID, 'wrt_client_website',true), 'royal-testimonials');?>" target="_blank"><?php _e(get_post_meta( $testimonial->ID, 'wrt_client_website',true), 'royal-testimonials');?></a>
+							<a href="<?php echo get_post_meta( $testimonial->ID, 'wrt_client_website',true);?>" target="_blank"><?php _e(get_post_meta( $testimonial->ID, 'wrt_client_website',true), 'royal-testimonials');?></a>
 							</p>
 						  <?php } ?>
 					</div>
@@ -52,7 +53,7 @@
 			<div class="wrt-rating">
 			
 			<?php for($i=1;$i<=5;$i++){ ?>
-				<span class="fa fa-star <?php if($i<=$rating) _e('checked', 'royal-testimonials');?>"></span>
+				<span class="fa fa-star <?php if($i<=$rating) echo 'checked';?>"></span>
 			<?php } ?>
 			</div>
 			<?php } ?>
