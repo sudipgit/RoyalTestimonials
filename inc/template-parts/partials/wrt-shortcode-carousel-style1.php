@@ -47,7 +47,7 @@
 			<?php } ?>
 			<?php if ($wrt_setting_options['wrt_carousel_hide_website']=='no' && get_post_meta( $testimonial->ID, 'wrt_client_website',true)){ ?>
 				<p class="wrt_website">
-				    <a href="<?php echo get_post_meta( $testimonial->ID, 'wrt_client_website',true);?>" target="_blank"><?php _e(get_post_meta( $testimonial->ID, 'wrt_client_website',true),'royal-testimonials');?></a>
+				    <a href="<?php echo esc_url(get_post_meta( $testimonial->ID, 'wrt_client_website',true));?>" target="_blank"><?php _e(get_post_meta( $testimonial->ID, 'wrt_client_website',true),'royal-testimonials');?></a>
 				</p>
 			<?php } ?>
 			
