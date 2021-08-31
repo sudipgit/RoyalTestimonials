@@ -2,7 +2,7 @@
 Contributors: sudipsk
 Tags: testimonials, testimonial,testimonial carousel,testimonial slider, star review, review
 Requires at least: 4.8
-Tested up to: 5.7
+Tested up to: 5.8
 Stable tag: 1.1
 Requires PHP: 5.2.4
 License: GPLv3 or later
